@@ -13,6 +13,7 @@ export default class CreateAddressesTable1606659537495
             type: 'integer',
             isPrimary: true,
             generationStrategy: 'increment',
+            isGenerated: true
           },
           {
             name: 'street',

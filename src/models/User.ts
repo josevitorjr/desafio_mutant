@@ -4,7 +4,7 @@ import {
   JoinColumn,
   ManyToOne,
   OneToMany,
-  PrimaryGeneratedColumn,
+  PrimaryColumn,
 } from 'typeorm';
 
 import Company from './Company';
@@ -12,7 +12,7 @@ import Address from './Address';
 
 @Entity('users')
 class User {
-  @PrimaryGeneratedColumn('increment')
+  @PrimaryColumn()
   id: number;
 
   @Column()
@@ -38,7 +38,7 @@ class User {
   company: Company;
 
   @OneToMany(() => Address, address => address.user_id)
-  addresses: Address[];
+  address: Address[];
 }
 
 export default User;

@@ -12,7 +12,8 @@ export default class CreateCompaniesTable1606659966192
             name: 'id',
             type: 'integer',
             isPrimary: true,
-            generationStrategy: 'increment'
+            generationStrategy: 'increment',
+            isGenerated: true
           },
           {
             name: 'name',
