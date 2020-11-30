@@ -16,7 +16,9 @@ Nesse desafio, você desenvolverá uma aplicação que consuma os dados de uma w
 Para iniciar o projeto clone esse repositório pra sua maquína com o comando
 `git clone https://github.com/josevitorjr/desafio_mutant.git` após a conclusão, navegue até a pasta criada e abra no Visual Studio Code, lembre-se de executar o comando `yarn` no seu terminal para instalar todas as dependências.
 
-Para baixar o container rode o comando `docker pull josevitorr/desafio_mutant:mutant_mysql` no seu terminal.
+Para baixar a image rode o comando `docker pull josevitorr/desafio_mutant:5.7` no seu terminal.
+
+**`Verifique se os database 'mutant' e 'mutant_test' estão criado!`**
 
 ### Roteiro do desafio
 
