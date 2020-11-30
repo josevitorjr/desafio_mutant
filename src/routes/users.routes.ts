@@ -19,7 +19,6 @@ usersRouter.post('/', async (request, response) => {
 
   const createdUsers = await createUser.execute(users);
 
-  console.log(createdUsers)
   return response.json(createdUsers);
 });
 

@@ -108,8 +108,6 @@ class CreateUserService {
         await addressesRepository.save(addressToCreate);
       }
     });
-
-    console.log(createdUsers);
     return createdUsers;
   }
 }
