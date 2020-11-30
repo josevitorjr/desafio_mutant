@@ -18,7 +18,7 @@ Para iniciar o projeto clone esse repositório pra sua maquína com o comando
 
 Para baixar a image rode o comando `docker pull josevitorr/desafio_mutant:5.7` no seu terminal.
 
-**`Verifique se os database 'mutant' e 'mutant_test' estão criado!`**
+**`Verifique se os database 'mutant' e 'mutant_tests' estão criado!`**
 
 ### Roteiro do desafio
 
