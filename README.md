@@ -18,7 +18,7 @@ Para iniciar o projeto clone esse repositório pra sua maquína com o comando
 
 Para baixar a image rode o comando `docker pull josevitorr/desafio_mutant:5.7` no seu terminal.
 
-**`Verifique se os database 'mutant' e 'mutant_tests' estão criado!`**
+**`Verifique se os database 'mutant' e 'mutant_tests' estão criados!`**
 
 ### Roteiro do desafio
 
@@ -28,6 +28,7 @@ necessárias e armazenar os dados no DB;
 - Swagger ou Postman - Responsável pela documentação da API desenvolvida, será
 utilizado pelo entrevistador para validar o seu teste;
 
+Link para a Documentação: https://documenter.getpostman.com/view/13319888/TVmJiemF
 ### Funcionalidades da aplicação
 
 - **`Listar os usuários da fake API`**: A aplicação deve conseguir listar os usuários da fake API https://jsonplaceholder.typicode.com/users .
